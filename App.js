@@ -35,7 +35,7 @@ function Drinkable({ navigation }) {
   return (
     <View style={styles.container}>
       <ScrollView style={styles.scrollView}>
-      <Image style={styles.imageSize} source={require('./assets/MH.png')}/>
+      <Image style={styles.imageSize} source={require('./assets/MH3.png')}/>
       <Text style={styles.textDesign}>Use the herbs in this category in a tea</Text>
       <Image style={styles.herbSize} source={require('./assets/Ginger.jpg')}/>
       <Text style={styles.textDesign}>Ginger Tea</Text>
@@ -62,7 +62,7 @@ function Apply({ navigation }) {
   return (
     <View style={styles.container}>
       <ScrollView style={styles.scrollView}>
-      <Image style={styles.imageSize} source={require('./assets/MH.png')}/>
+      <Image style={styles.imageSize} source={require('./assets/MH3.png')}/>
       <Text style={styles.textDesign}>Apply directly to skin the herbs here via oil or direct from the herb itself</Text>
       <Image style={styles.herbSize} source={require('./assets/Cinnamon.jpg')}/>
       <Text style={styles.textDesign}>Cinnamon</Text>
@@ -89,7 +89,7 @@ function Spices({ navigation }) {
   return (
     <View style={styles.container}>
       <ScrollView style={styles.scrollView}>
-      <Image style={styles.imageSize} source={require('./assets/MH.png')}/>
+      <Image style={styles.imageSize} source={require('./assets/MH3.png')}/>
       <Text style={styles.textDesign}>Use the herbs in this category in your cooking</Text>
       <Image style={styles.herbSize} source={require('./assets/Basil.jpg')}/>
       <Text style={styles.textDesign}>Basil</Text>
