@@ -7,7 +7,7 @@ function Home({ navigation }) {
   return (
     <View style={styles.container}>
       <ScrollView style={styles.scrollView}>
-      <Image style={styles.imageSize} source={require('./assets/MH.png')}/>
+      <Image style={styles.imageSize} source={require('./assets/MH3.png')}/>
       <Text style={styles.textDesign}>Welcome To MediApp</Text>
       <Text style={styles.textDesign}>The Wiki For Medical Herbs On the Go</Text>
       <Text style={styles.textDesign}>Select One of the Buttons below</Text>
@@ -15,16 +15,16 @@ function Home({ navigation }) {
       <Text style={styles.textDesign}>However while this may provide some information</Text>
       <Text style={styles.textDesign}>It is still better to do some research</Text>
       <Pressable style={styles.customButton}>
-        <Text style={{color:"#fff"}}>Drinkable</Text>
+        <Text style={{color:"#FFFFFF"}}>Drinkable</Text>
       </Pressable>
       <Pressable style={styles.customButton}>
-        <Text style={{color:"#fff"}}>Apply to Skin</Text>
+        <Text style={{color:"#FFFFFF"}}>Apply to Skin</Text>
       </Pressable>
       <Pressable style={styles.customButton}>
-        <Text style={{color:"#fff"}}>Digested/Spices</Text>
+        <Text style={{color:"#FFFFFF"}}>Digested/Spices</Text>
       </Pressable>
       <Pressable style={styles.customButton}>
-        <Text style={{color:"#fff"}}>EMERGENCY!</Text>
+        <Text style={{color:"#FFFFFF"}}>EMERGENCY!</Text>
       </Pressable>
       </ScrollView>
     </View>
@@ -154,16 +154,16 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#2660c5',
+    backgroundColor: '#FFFFFF',
     alignItems: 'center',
     justifyContent: 'center',
   },
 
   textDesign:{
-    color: '#1cb411',
+    color: '#517B32',
     fontSize: 30,
     padding:15,
-    alignItems: "center",
+    textAlign: 'center',
   },
 
   imageSize:{
@@ -183,15 +183,17 @@ const styles = StyleSheet.create({
     width: "50%",
     height: "25%",
     resizeMode: 'stretch',
+    alignItems: 'center',
+    justifyContent: 'center',
   },
 
   customButton:{
     width: "50%",
     height: 50,
-    backgroundColor:"#0082B5",
+    backgroundColor:"#517B32",
     color: "#fff",
     padding: 15,
-    alignItems: "center",
+    alignItems: 'center',
     margin: 15,
 
   scrollView:{
